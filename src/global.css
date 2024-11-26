@@ -1,0 +1,31 @@
+:root{
+    --white: #fff;
+    --green: #178f27;
+    ---600: #FFEDE7;
+    ---700:#ffd8d8;
+    ---800: #5a2121;
+    --purple-900: #ffa9a9;
+    ---500:#da807e;
+    ---100: #fcd3c6;
+    --hot-100: #af3c3c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/src/assets/fundo.jpg);
+    color: var(---800);
+    -webkit-font-smothing: antialiased;
+}
+
+
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,11 @@
+.header{
+    background: var(---500);
+    display: flex;
+    justify-content: center;
+    padding: 0.1rem;
+   
+}
+
+.header img{
+    height: 5rem;
+}

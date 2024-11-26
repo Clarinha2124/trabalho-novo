@@ -1,0 +1,138 @@
+.post{
+    background: var(---500);
+    border-radius: 8px;
+    padding: 2.5rem;
+    border: 2px solid var(--hot-100);
+}
+
+.post img{
+width: 300px;
+border: 2px var(--white)
+};
+
+.post > header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post + .post{
+    margin-top: 2rem;
+    color: var(black);
+}
+
+.post > header time{
+    font-size: 0.775rem;
+   color: var(---700);
+
+}
+
+.content {
+    margin-top: 1.5rem;
+    color: var(--white);
+    line-height: 1.6;
+}
+
+.content p{
+    margin-top: 1rem;
+}
+
+.content a{
+    font-weight: bold;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.content a:hover{
+    color: var(---white);
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author img{
+    width: calc(3rem + 12px);
+    height: calc(3rem +12px);
+    border-radius: 8px;
+    outline: 2px solid var(--hot-100);;
+     
+}
+
+.authorInfo strong{
+    display: block;
+    color: var(black);
+    line-height: 1.6;
+}
+
+.authorInfo span{
+    display: block;
+    font-size: 00.875rem;
+    color: var(black);
+    line-height: 1.6;
+}
+
+.commentForm{
+    width:100%;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--white);
+}
+
+.commentForm{
+    line-height: 1.6;
+    color: var(--white);
+}
+
+.commentForm textarea{
+    width: 100%;
+    background-color: var(---100);
+    resize: none;
+    border: 0;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--hot-100);
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.commentForm button[type=submit] {
+
+padding: 1rem 1.5rem;
+margin-top: 1rem;
+border-radius: 8px;
+border:0;
+background: var(--hot-100);
+color: var(---600);
+font-weight: bold;
+cursor: pointer;
+border: var(--hot-100);
+
+transition: background-color 0.1s;
+}
+
+.commentForm button[type=submit]:hover{
+background: var(---100);
+color: var(--hot-100);
+}
+
+.commentForm footer{
+visibility: hidden;
+max-height: 0;
+
+
+}
+
+.commentForm:focus-within footer{
+visibility: visible;
+max-height: none;
+
+}
+
+.commentList{
+    margin-top: 4rem;
+    
+}
